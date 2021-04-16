@@ -2,7 +2,7 @@ scikit-build
 numpy>=1.13
 pyyaml==3.12
 matplotlib
-opencv-python==3.2.0.6
+opencv-python==4.1.2.30
 setuptools
 Cython
 mock
