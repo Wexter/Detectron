@@ -63,17 +63,5 @@ setup(
         'detectron.modeling',
         'detectron.ops',
         'detectron.roi_data'],
-    install_requires=[
-        'pyyaml>=5.1',
-        'numpy>=1.13',
-        'matplotlib>=3.4.3',
-        'opencv-python>=3.2',
-        'cython>=0.29.24',
-        'mock>=4.0.3',
-        'scipy==1.5.4',
-        'six>=1.16.0',
-        'future>=0.18.2',
-        'protobuf>=3.18.1'
-    ],
     ext_modules=cythonize(ext_modules)
 )
