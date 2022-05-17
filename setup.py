@@ -70,7 +70,7 @@ setup(
         'opencv-python>=3.2',
         'cython>=0.29.24',
         'mock>=4.0.3',
-        'scipy>=1.7.1',
+        'scipy==1.5.4',
         'six>=1.16.0',
         'future>=0.18.2',
         'protobuf>=3.18.1'
